@@ -1,3 +1,7 @@
-console.log("String com aspas duplas");
-console.log('String com aspas simples');
-console.log(`String com template literals`);
+const constNome = "Henrique"
+
+if (constNome == "Henrique") {
+    console.log(`E aí ${constNome}`)
+} else {
+    console.log("Nome não encontrado")
+}
